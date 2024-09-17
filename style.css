@@ -1,0 +1,352 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.user__profile .section {
+    padding: 4rem 8rem;
+}
+
+.profile__left_column,
+.profile__right_column {
+    padding: 0 2rem;
+}
+
+
+/* --------- left column --------- */
+
+
+.profile__left_column-data {
+    position: sticky;
+    top: 55px;
+}
+
+.profile__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 1rem 0;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.profile__data_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.profile__avatar {
+    position: relative;
+}
+
+.profile__avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile__status {
+    position: absolute;
+    right: 2px;
+    bottom: 10px;
+    z-index: 2;
+    color: #f91942;
+    font-size: 18px;
+}
+
+.profile__name_wrapper {
+    text-align: center;
+}
+
+.profile__name_wrapper h2 {
+    font-size: 27px;
+    font-weight: 650;
+    margin-top: 12px;
+    margin-bottom: 1px;
+}
+
+.profile__name_wrapper p {
+    font-weight: 500;
+}
+
+.profile__stat_wrapper {
+    width: 30%;
+}
+
+.stat__data {
+    padding: 0.7rem 0;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+.profile__stat_wrapper .stat__data:last-child {
+    border-bottom: none;
+}
+
+.stat__data h3,
+.stat__data h3 i {
+    font-size: 18px;
+    font-weight: 650;
+    margin-bottom: 2px;
+}
+
+.stat__data p {
+    font-size: 12px;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+
+/* ----------- profile info ------------ */
+
+.profile__info_card {
+    color: black;
+    border-radius: 25px;
+    border: .5px solid #d1d1d1;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+.profile__info_heading {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.info__card_item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+.info__card_item p {
+    margin-bottom: 0;
+}
+
+
+/* --------- profile report ---------- */
+
+.profile__report {
+    color: black;
+    margin-top: 2rem;
+}
+
+.profile__report a {
+    margin-left: 10px;
+    color: black !important;
+}
+
+
+
+/* ================ Right column ================= */
+
+.profile__header_wrapper {
+    margin-bottom: 2rem;
+}
+
+.profile__right_column .profile__name {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.profile__languages {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #222222;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+.profile__languages p {
+    margin-bottom: 0;
+}
+
+.profile__description {
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.read__more_btn {
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+/* -------- review section -------------- */
+
+
+.profile__wrapper_head {
+    border-top: 1px solid #d1d1d1;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.profile__wrapper_body {
+    margin-bottom: 3rem;
+}
+
+.profile__wrapper_heading {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.slider__button_wrapper {
+    width: 80px;
+    position: relative;
+}
+
+.profile__swipper_btn {
+    transform: translateY(50%);
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #d1d1d1;
+}
+
+.profile__swipper_btn::after {
+    font-size: 10px !important;
+    color: black !important;
+}
+
+/* --------- review card -------- */
+.profile__review_card {
+    min-height: 280px;
+    border-radius: 20px;
+    border: 1px solid #d1d1d1;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.review__user_data {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.review__user_data img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review__user_data .user__data_wrapper p {
+    margin-bottom: 0;
+}
+
+.review__user_name {
+    font-weight: 700;
+}
+
+
+/* -------- listing card -------- */
+.listing__card_slide a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.listing__card_img {
+    height: 230px;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.listing__card_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.listing__card_title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.listing__card_title {
+    font-weight: 500;
+    color: black;
+    margin-bottom: 0;
+    line-height: 100%;
+    margin-bottom: 2px;
+}
+
+.listing__card_review {
+    text-wrap: nowrap;
+}
+
+.profile__footer_link {
+    font-size: 17px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ====================== Media Queries ========================== */
+
+@media (max-width: 1200px) {
+    .user__profile .section {
+        padding: 4rem 6rem;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .user__profile .section {
+        padding: 4rem 4rem;
+    }
+
+    .profile__left_column,
+    .profile__right_column {
+        padding: 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .user__profile .section {
+        padding: 4rem 3rem;
+    }
+    .profile__left_column,
+    .profile__right_column {
+        padding: 0rem;
+    }
+
+}
+
+@media (max-width: 576px) {
+    .user__profile .section {
+        padding: 4rem 1.5rem;
+    }
+}
